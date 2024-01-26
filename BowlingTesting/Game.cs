@@ -19,7 +19,7 @@ namespace BowlingTesting
     {
 
         [Test]
-        public void When_GetScore_And_ActualTurn_IsHigher_Than_TurnMax_Returns_Exception()
+        public void When_GetScore_And_ActualTurn_IsLess_Than_TurnMax_Returns_Exception()
         {
             GameBowling game = new();
             Assert.Throws<NotImplementedException>(() => game.GetScore());
