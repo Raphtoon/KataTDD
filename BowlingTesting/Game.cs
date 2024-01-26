@@ -19,10 +19,9 @@ namespace BowlingTesting
     {
 
         [Test]
-        public void When_GetScore_Returns_Exception()
+        public void When_GetScore_And_ActualTurn_IsHigher_Than_TurnMax_Returns_Exception()
         {
             GameBowling game = new();
-
             Assert.Throws<NotImplementedException>(() => game.GetScore());
         }
 
@@ -30,11 +29,12 @@ namespace BowlingTesting
         public void When_GetScore_Returns_Score()
         {
             GameBowling game = new();
-
+            game.TourActuel = 22;
             var result = game.GetScore();
-
-            Assert.AreEqual(2, result);
+            Assert.AreEqual(20, result);
         }
+
+
 
     }
 }
