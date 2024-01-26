@@ -33,8 +33,11 @@ namespace BowlingTesting
             var result = game.GetScore();
             Assert.AreEqual(20, result);
         }
-
-
-
+        [Test]
+        public void When_Roll_DontTouch_Something_Return_Exception()
+        {
+            GameBowling game = new();
+            Assert.Throws<NotImplementedException>(() => game.HitPin(5));
+        }
     }
 }
