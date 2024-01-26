@@ -37,7 +37,7 @@ namespace BowlingTesting
         public void When_Roll_DontTouch_Something_Return_Exception()
         {
             GameBowling game = new();
-            Assert.Throws<NotImplementedException>(() => game.HitPin(5));
+            Assert.Throws<NotImplementedException>(() => game.HitPin(0));
         }
     }
 }

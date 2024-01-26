@@ -32,15 +32,16 @@
         // verifier si on a touché une quille, l'ajouter au score
         public void HitPin(int nbPinHit)
         {
-            if (nbPinHit > 0)
+            if (nbPinHit < 0)
             {
+                Lancer.Add(Lancer.Count + 1);
                 Score += nbPinHit;
             }
             else
             {
                 throw new NotImplementedException();
+                Lancer.Add(Lancer.Count + 1);
             }
-            Lancer.Add(Lancer.Count + 1);
         }
     }
 }
