@@ -17,17 +17,16 @@ namespace BowlingTesting
 
     public class Game
     {
-        [SetUp]
-        public GameBowling SetUp()
-        {
-            GameBowling game = new();
-            return game;
-        }
 
         [Test]
         public void When_GetScore_Returns_Exception()
         {
+            //Arrange 
+            GameBowling game = new();
 
+            //Act
+
+            Assert.Throws<NotImplementedException>(() => game.GetScore());
         }
     }
 }
