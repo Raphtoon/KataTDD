@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling.Core", "Bowling.Core\Bowling.Core.csproj", "{8867F53E-E15F-4B04-A5AF-4AF8BE19DC4A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingTests", "BowlingTests\BowlingTests.csproj", "{DDB5F84A-92DB-4D68-B875-1939317F48ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling.CORE", "Bowling.CORE\Bowling.CORE.csproj", "{21945DEA-31B2-4EEC-ABC3-8C2E56EF76A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,19 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8867F53E-E15F-4B04-A5AF-4AF8BE19DC4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8867F53E-E15F-4B04-A5AF-4AF8BE19DC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8867F53E-E15F-4B04-A5AF-4AF8BE19DC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8867F53E-E15F-4B04-A5AF-4AF8BE19DC4A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DDB5F84A-92DB-4D68-B875-1939317F48ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DDB5F84A-92DB-4D68-B875-1939317F48ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DDB5F84A-92DB-4D68-B875-1939317F48ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DDB5F84A-92DB-4D68-B875-1939317F48ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21945DEA-31B2-4EEC-ABC3-8C2E56EF76A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21945DEA-31B2-4EEC-ABC3-8C2E56EF76A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21945DEA-31B2-4EEC-ABC3-8C2E56EF76A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21945DEA-31B2-4EEC-ABC3-8C2E56EF76A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E708A92E-4CA0-4C6D-915C-58E0F1AAA1A0}
+		SolutionGuid = {94B5D611-4A93-4DC5-9AC7-C1373A020651}
 	EndGlobalSection
 EndGlobal
