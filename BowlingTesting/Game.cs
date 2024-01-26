@@ -21,12 +21,20 @@ namespace BowlingTesting
         [Test]
         public void When_GetScore_Returns_Exception()
         {
-            //Arrange 
             GameBowling game = new();
-
-            //Act
 
             Assert.Throws<NotImplementedException>(() => game.GetScore());
         }
+
+        [Test]
+        public void When_GetScore_Returns_Score()
+        {
+            GameBowling game = new();
+
+            var result = game.GetScore();
+
+            Assert.AreEqual(2, result);
+        }
+
     }
 }
